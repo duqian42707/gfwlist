@@ -40,7 +40,6 @@
 ||google-analytics.com^
 ||doubleclick.net^
 ||raspberrypi.org^
-||cip.cc^
 
 !---------User Rules End---------
 

@@ -1,0 +1,14 @@
+{
+  "name": "gfwlist",
+  "version": "1.0.0",
+  "description": "GFWlist text file auto encoding",
+  "main": "index.js",
+  "scripts": {
+    "build": "node encode.js"
+  },
+  "author": "Breeze",
+  "license": "ISC",
+  "dependencies": {
+    "js-base64": "^3.1.3"
+  }
+}

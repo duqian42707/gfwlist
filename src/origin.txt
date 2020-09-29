@@ -41,6 +41,7 @@
 ||doubleclick.net^
 ||raspberrypi.org^
 ||istio.io^
+||seafile.com^
 !---------User Rules End---------
 
 

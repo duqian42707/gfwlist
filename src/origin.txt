@@ -42,6 +42,7 @@
 ||raspberrypi.org^
 ||istio.io^
 ||seafile.com^
+||shadowsocks.org^
 !---------User Rules End---------
 
 

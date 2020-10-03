@@ -10,6 +10,7 @@
 ||firebaseapp.com^
 ||fontawesome.com^
 ||js.org^
+||gcr.io^
 ||githubusercontent.com^
 ||gitlab.com^
 ||github.com^
@@ -19,7 +20,6 @@
 ||herokuapp.com^
 ||istio.io^
 ||jquery.com^
-||k8s.gcr.io^
 ||mgssr.xyz^
 ||mgjs.cc^
 ||mvnrepository.com^

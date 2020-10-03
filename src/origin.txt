@@ -31,5 +31,6 @@
 ||istio.io^
 ||seafile.com^
 ||shadowsocks.org^
+||k8s.gcr.io^
 !---------User Rules End---------
 

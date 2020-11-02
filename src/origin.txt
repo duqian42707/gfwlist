@@ -25,6 +25,7 @@
 ||mvnrepository.com^
 ||npmjs.com^
 ||raspberrypi.org^
+||reactjs.org^
 ||seafile.com^
 ||shadowsocks.org^
 ||spring.io^

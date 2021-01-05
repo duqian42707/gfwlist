@@ -5,6 +5,7 @@
 
 !---------User Rules Start---------
 ||amazonaws.com^
+||bootstrapcdn.com^
 ||cloudflare.com^
 ||doubleclick.net^
 ||firebaseapp.com^

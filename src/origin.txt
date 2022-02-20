@@ -26,6 +26,7 @@
 ||mgjs.cc^
 ||mvnrepository.com^
 ||npmjs.com^
+||okx.com^
 ||raspberrypi.org^
 ||reactjs.org^
 ||seafile.com^

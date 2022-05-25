@@ -22,6 +22,7 @@
 ||istio.io^
 ||jetbrains.com^
 ||jquery.com^
+||jsdelivr.net^
 ||mgssr.xyz^
 ||mgjs.cc^
 ||mvnrepository.com^

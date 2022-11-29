@@ -8,6 +8,7 @@
 ||bootstrapcdn.com^
 ||cloudflare.com^
 ||doubleclick.net^
+||elastic.co^
 ||firebaseapp.com^
 ||fontawesome.com^
 ||js.org^

@@ -40,15 +40,8 @@ jobs:
           set -x
 
           mkdir dist
-          genpac --pac-proxy "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT;" --gfwlist-url - --gfwlist-local gfwlist/gfwlist.txt --user-rule-from=src/user-rule.txt -o dist/gfwlist.pac
+          genpac --pac-proxy "PROXY 127.0.0.1:10809;DIRECT;" --gfwlist-url - --gfwlist-local gfwlist/gfwlist.txt --user-rule-from=src/user-rule.txt -o dist/gfwlist.pac
           sed '1,7d' -i dist/gfwlist.pac
-
-      #          git add gfwlist.pac
-      #          git commit -m "[$(LANG=C date)] auto update" || exit 0
-
-      #          [ -n "${{ secrets.READ_ONLY }}" ] && git show && exit 0
-
-      #          git push origin master
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1

@@ -2,3 +2,4 @@
 node_modules/
 dist/
 *.iml
+gfwlist/gfwlist.txt

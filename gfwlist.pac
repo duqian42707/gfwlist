@@ -1,8 +1,43 @@
-var proxy = 'SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080; DIRECT;';
+var proxy = 'PROXY 127.0.0.1:10809;DIRECT;';
 var rules = [
     [
         [],
-        []
+        [
+            "amazonaws.com",
+            "bootstrapcdn.com",
+            "cloudflare.com",
+            "doubleclick.net",
+            "elastic.co",
+            "firebaseapp.com",
+            "fontawesome.com",
+            "gcr.io",
+            "github.com",
+            "github.io",
+            "githubusercontent.com",
+            "gitlab.com",
+            "google-analytics.com",
+            "gravatar.com",
+            "herokuapp.com",
+            "istio.io",
+            "jetbrains.com",
+            "jquery.com",
+            "js.org",
+            "jsdelivr.net",
+            "mgjs.cc",
+            "mgssr.xyz",
+            "mvnrepository.com",
+            "npmjs.com",
+            "okx.com",
+            "raspberrypi.org",
+            "reactjs.org",
+            "seafile.com",
+            "shadowsocks.org",
+            "spring.io",
+            "sstatic.net",
+            "stackoverflow.com",
+            "turfjs.org",
+            "unpkg.com"
+        ]
     ],
     [
         [

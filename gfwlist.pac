@@ -4,6 +4,7 @@ var rules = [
         [],
         [
             "amazonaws.com",
+            "apache.org",
             "bootstrapcdn.com",
             "cloudflare.com",
             "doubleclick.net",

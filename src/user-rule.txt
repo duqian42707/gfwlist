@@ -39,5 +39,6 @@
 ||stackoverflow.com
 ||turfjs.org
 ||unpkg.com
+||xsus.wiki
 !---------User Rules End---------
 

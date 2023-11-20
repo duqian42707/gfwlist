@@ -37,7 +37,8 @@ var rules = [
             "sstatic.net",
             "stackoverflow.com",
             "turfjs.org",
-            "unpkg.com"
+            "unpkg.com",
+            "xsus.wiki"
         ]
     ],
     [

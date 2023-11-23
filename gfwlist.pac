@@ -38,7 +38,8 @@ var rules = [
             "stackoverflow.com",
             "turfjs.org",
             "unpkg.com",
-            "xsus.wiki"
+            "xsus.wiki",
+            "yunzainfo.com"
         ]
     ],
     [

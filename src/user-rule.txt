@@ -28,7 +28,6 @@
 ||mgssr.xyz
 ||mgjs.cc
 ||mvnrepository.com
-||ng.yunzainfo.com
 ||npmjs.com
 ||okx.com
 ||raspberrypi.org

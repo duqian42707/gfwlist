@@ -8,8 +8,6 @@ jobs:
     steps:
       - name: 🛎️ Checkout
         uses: actions/checkout@v3
-        with:
-          persist-credentials: false
 
       - name: 🔧 Install and Build
         run: |

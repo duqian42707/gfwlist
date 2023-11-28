@@ -2,24 +2,22 @@ const base64 = require('js-base64');
 const fs = require('fs');
 
 function main() {
-    let content = fs.readFileSync('src/rule_default.txt', 'utf-8');
-    content += fs.readFileSync('src/rule_user.txt', 'utf-8');
-    const base64Content = base64.Base64.encode(content);
+    const proxy = "PROXY 127.0.0.1:10809;DIRECT;";
+    let content = fs.readFileSync('src/gfwlist.tpl', 'utf-8');
+    const userRules = fs.readFileSync('src/rule_user.json', 'utf-8');
+    const defaultRules = fs.readFileSync('src/rule_default.json', 'utf-8');
+    const rules = userRules.trim() + ',' + defaultRules.trim();
+    content = content.replace('/**proxy**/', proxy).replace('/**rules**/', rules)
 
     fs.mkdir("dist", function (err) {
         if (err) throw err;
 
-        fs.writeFile('dist/pac.txt', content, {'flag': 'a'}, function (err) {
+        fs.writeFile('dist/gfwlist.pac', content, {'flag': 'a'}, function (err) {
             if (err) throw err;
-            console.log('pac.txt write finished');
-        });
-
-        fs.writeFile('dist/gfwlist.txt', base64Content, {'flag': 'a'}, function (err) {
-            if (err) throw err;
-            console.log('File encoding has finished');
+            console.log('gfwlist.pac write finished');
         });
 
     });
 }
 
-
+main();

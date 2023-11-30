@@ -26,6 +26,7 @@ var rules = [[
     "mgssr.xyz",
     "mgjs.cc",
     "mvnrepository.com",
+    "nextjs.org",
     "ng.yunzainfo.com",
     "npmjs.com",
     "okx.com",
